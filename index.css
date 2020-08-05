@@ -3,21 +3,17 @@
     max-width: 100%;
 } 
 html {
-    font-size: 62.5%; /* = default browser font-size is 16px */
+    font-size: 62.5%; 
 } 
 body {
     font-family: 'Roboto Mono', monospace;
     font-size: 1.6rem; 
-    /* line-height: 1.5; */ 
-    /* multiplies font-size by this number */
     background-color: white;
-    max-width: 100%;
-    margin: 0;
-    padding: 0;
+    
 }
 nav {
-    margin: 1% 10% 1% 10%;
-    /* background-color: aqua; */
+    margin: 1% 10% 1% 10%; 
+    background-color: aqua;
 }
 a {
     border-radius: 10px;
@@ -29,14 +25,18 @@ a {
 }
 h1 {
     font-family: 'Chelsea Market', cursive;
+    font-size: 5rem;
+    text-align: center;
+}
+header p {
+    text-align: center;
+    margin: 5% 0;
 }
 .plan {
     background-color: #FF764E;
 }
 .learn {
     background-color: #5ED3EB;
-    margin-right: 26%;
-    margin-left: 26%;
 }
 .involved {
     background-color: #FFCD69;
@@ -44,8 +44,40 @@ h1 {
 header img {
     border-radius: 50%;
 }
+header div {
+    display: inline-block;
+    
+}
+.headerimage {
+    /* background-color: green; */
+    max-width: 20%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.headertext {
+    /* background-color: aqua; */
+    width: 65%;
+    margin-bottom: 3%;
+}
+.threelines {
+    width: 45%;
+    margin: 0 auto;
+}
+.maintextbody {
+    background-color: #DDB9A3;
+    color: white;
+    margin: 0 5% auto;
+}
+.maintextbody p {
+    padding: 1% 2% 1% 2%;
+}
+.tinywhiny {
+    width: 25%;
+    margin: 0 auto;
+}
 footer {
     /* background-color: aqua; */
+    background-color: #F9E7DC;
 }
 footer img {
     width: 100%;
