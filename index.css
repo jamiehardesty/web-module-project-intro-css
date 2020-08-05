@@ -1,3 +1,41 @@
+* {
+    box-sizing: border-box; 
+    max-width: 100%;
+} 
+html {
+    font-size: 62.5%; /* = default browser font-size is 16px */
+} 
 body {
-    background-color: yellow;
+    /* font-family: ; */
+    /* FILL THIS IN */  /* FILL THIS IN */  /* FILL THIS IN */  /* FILL THIS IN */ 
+    font-size: 1.6rem; 
+    /* line-height: 1.5; */ 
+    /* multiplies font-size by this number */
+    background-color: white;
+}
+nav {
+    margin: 1% 10% 1% 10%;
+    background-color: aqua;
+}
+a {
+    border-radius: 10px;
+    display: inline-block;
+    background-color: palevioletred;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+}
+.plan {
+    background-color: #FF764E;
+    margin-right: 20%;
+}
+.learn {
+    background-color: #5ED3EB;
+    margin-right: 20%;
+}
+.involved {
+    background-color: #FFCD69;
+}
+header img {
+    border-radius: 50%;
 }
