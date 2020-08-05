@@ -1,0 +1,154 @@
+/* Attempted 2 stretches: CSS animations in <nav> and favicon. */
+
+* {
+    box-sizing: border-box; 
+    max-width: 100%;
+} 
+html {
+    font-size: 62.5%; 
+} 
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.6rem; 
+    background-color: white;
+    
+}
+nav {
+    width: 70%;
+    margin: 0 auto;
+    padding: 2% 0;
+    /* background-color: aqua; */
+}
+a {
+    border-radius: 10px;
+    display: inline-block;
+    background-color: palevioletred;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    width: 130px;
+    text-align: center;
+}
+a:hover {
+    transform: rotate(20deg);
+    box-shadow: 2px 2px 5px gray;
+    animation-name: yosemite;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes yosemite {
+    from {background-color: red;
+        transform: rotate(20deg);}
+    to {background-color: blue;
+        transform: rotate(-20deg);}
+  }
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 5rem;
+    text-align: center;
+}
+header p {
+    text-align: center;
+    margin: 5% 0;
+}
+.plan {
+    background-color: #FF764E;
+}
+.learn {
+    background-color: #5ED3EB;
+    margin: 0 10%;
+}
+.involved {
+    background-color: #FFCD69;
+}
+header img {
+    border-radius: 50%;
+}
+header div {
+    display: inline-block;
+}
+b {
+    font-weight: 900;
+}
+.headerimage {
+    /* background-color: green; */
+    max-width: 20%;
+    margin-left: 10%;
+    margin-top: 3.5%;
+}
+.headertext {
+    /* background-color: aqua; */
+    vertical-align: top;
+    width: 60%;
+    margin-top: 7%;
+    margin-bottom: 3%;
+}
+.threelines {
+    width: 350px;
+    margin: 0 auto;
+}
+.maintextbody {
+    background-color: #DDB9A3;
+    text-align: center;
+    line-height: 1.5;
+    color: white;
+    margin: 5% 5% auto;
+    /* padding: 0 1%; */
+}
+.maintextbody p {
+    padding: 1% 2% 1% 2%;
+}
+.tinywhiny {
+    width: 25%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 4%;
+}
+.tinywhiny img {
+    width: 30%;
+}
+.tinywhiny p {
+    margin-bottom: 20%;
+}
+footer {
+    background-color: #F9E7DC;
+}
+.footerimg {
+    background-image: url('assets/footer_img.jpg');
+    min-height: 40vh;
+    background-size: cover;
+}
+
+/*      MEDIA QUERIES FOR NAV       */
+/*      MEDIA QUERIES FOR NAV       */
+/*      MEDIA QUERIES FOR NAV       */
+@media (min-width: 800px) {
+    .learn {
+        margin: 0 15%;
+    }
+}
+@media (min-width: 1000px) {
+    .learn {
+        margin: 0 20%;
+    }
+}
+@media (min-width: 1200px) {
+    .learn {
+        margin: 0 25%;
+    }
+}
+@media (min-width: 1400px) {
+    .learn {
+        margin: 0 28.5%;
+    }
+}
+@media (min-width: 1600px) {
+    .learn {
+        margin: 0 31.5%;
+    }
+}
+@media (min-width: 1800px) {
+    .learn {
+        margin: 0 33.3%;
+    }
+}
