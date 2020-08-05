@@ -12,14 +12,16 @@ body {
     
 }
 nav {
-    margin: 1% 15%; 
-    background-color: aqua;
+    width: 70%;
+    margin: 0 auto;
+    padding: 2% 0;
+    /* background-color: aqua; */
 }
 a {
     border-radius: 10px;
     display: inline-block;
     background-color: palevioletred;
-    padding: 1%;
+    padding: 10px;
     color: white;
     text-decoration: none;
     width: 130px;
@@ -36,14 +38,15 @@ header p {
 }
 .plan {
     background-color: #FF764E;
+    /* margin-left: 15%; */
 }
 .learn {
     background-color: #5ED3EB;
-    margin-left: 20%;
+    margin: 0 23%;
 }
 .involved {
     background-color: #FFCD69;
-    margin-left: 20%;
+    
 }
 header img {
     border-radius: 50%;
@@ -58,23 +61,26 @@ b {
     /* background-color: green; */
     max-width: 20%;
     margin-left: 10%;
-    margin-top: 2%;
+    margin-top: 3.5%;
 }
 .headertext {
     /* background-color: aqua; */
     vertical-align: top;
-    width: 65%;
-    margin-top: 5%;
+    width: 60%;
+    margin-top: 7%;
     margin-bottom: 3%;
 }
 .threelines {
-    width: 45%;
+    width: 350px;
     margin: 0 auto;
 }
 .maintextbody {
     background-color: #DDB9A3;
+    text-align: center;
+    line-height: 1.5;
     color: white;
-    margin: 3% 5% auto;
+    margin: 5% 7% auto;
+    /* padding: 0 1%; */
 }
 .maintextbody p {
     padding: 1% 2% 1% 2%;
@@ -83,7 +89,7 @@ b {
     width: 25%;
     text-align: center;
     margin: 0 auto;
-    padding-top: 2%;
+    padding-top: 4%;
 }
 .tinywhiny img {
     width: 30%;
@@ -104,8 +110,8 @@ footer {
 } */
 .testfooter {
     background-image: url('assets/footer_img.jpg');
-    min-height: 30vh;
+    min-height: 40vh;
     background-size: cover;
-    background-position: top left;
-    background-attachment: fixed;
+    /* background-position: top center; */
+    /* background-attachment: fixed; */
 }
