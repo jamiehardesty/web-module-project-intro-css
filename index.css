@@ -15,7 +15,7 @@ body {
 }
 nav {
     margin: 1% 10% 1% 10%;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 a {
     border-radius: 10px;
@@ -27,11 +27,11 @@ a {
 }
 .plan {
     background-color: #FF764E;
-    margin-right: 20%;
 }
 .learn {
     background-color: #5ED3EB;
-    margin-right: 20%;
+    margin-right: 32.45%;
+    margin-left: 32.45%;
 }
 .involved {
     background-color: #FFCD69;
